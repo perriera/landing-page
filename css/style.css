@@ -1,4 +1,58 @@
 /* 
+ * Page defaults 
+ */
+
+.btn-trans { 
+  color: #FFFFFF; 
+  background-color: transparent; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-trans:hover, 
+.btn-trans:focus, 
+.btn-trans:active, 
+.btn-trans.active, 
+.open .dropdown-toggle.btn-trans { 
+  color: #FFFFFF; 
+  background-color: #235378; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-trans:active, 
+.btn-trans.active, 
+.open .dropdown-toggle.btn-trans { 
+  background-image: none; 
+} 
+ 
+.btn-trans.disabled, 
+.btn-trans[disabled], 
+fieldset[disabled] .btn-trans, 
+.btn-trans.disabled:hover, 
+.btn-trans[disabled]:hover, 
+fieldset[disabled] .btn-trans:hover, 
+.btn-trans.disabled:focus, 
+.btn-trans[disabled]:focus, 
+fieldset[disabled] .btn-trans:focus, 
+.btn-trans.disabled:active, 
+.btn-trans[disabled]:active, 
+fieldset[disabled] .btn-trans:active, 
+.btn-trans.disabled.active, 
+.btn-trans[disabled].active, 
+fieldset[disabled] .btn-trans.active { 
+  background-color: #611BBD; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-trans .badge { 
+  color: #611BBD; 
+  background-color: #FFFFFF; 
+}
+
+p, h1 {
+   font-family: 'Droid Sans', sans-serif;
+}
+
+/* 
  * Navigation 
  */
 
@@ -20,4 +74,32 @@
 .navbar-header .navbar-brand {
     color: white !important;
     font-size: 1.5em;
+}
+
+/* 
+ * Header 
+ */
+
+.header {
+    padding: 140px 0 60px 0;
+    background: url(../img/bg.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    border-bottom: 2px solid #c9c9c9;
+}
+
+.header h1 {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 7.5em;
+}
+
+.header p {
+    color: white;
+    font-size: 1.3em;
+}
+
+.header .btn {
+    padding: 5px 50px 5px 50px;
+    border-radius: 0;
 }
