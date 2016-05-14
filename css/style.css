@@ -148,5 +148,28 @@ p, h1 {
     padding-bottom: 25px;
 }
 
+/* 
+ * Features 
+ */
+
+.features {
+    background-color: #337ab7;
+    text-align: center;
+    color: white;
+    padding: 90px 0 90px 0;
+}
+
+.features h1 {
+    font-size: 2;
+    padding-bottom: 25px;
+}
+
+.features i {
+    padding: 5px 5px 5px 5px;
+}
+
+.features img {
+    padding: 15px 0 35px;
+}
 
 
