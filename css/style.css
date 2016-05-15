@@ -76,6 +76,10 @@ p, h1 {
     font-size: 1.5em;
 }
 
+.navbar-default .nav li.active a {
+    color: #1d1d1d !important;
+}
+
 /* 
  * Header 
  */
@@ -244,7 +248,7 @@ p, h1 {
  */
 
 .buy {
-    padding: 90px 0 90px;
+    padding: 150px 0 150px;
     text-align: center;
     background-color: #1c3f5c;
     color: white;
