@@ -196,4 +196,46 @@ p, h1 {
     opacity: 1;
 }
 
+/* 
+ * Screenshots 
+ */
+
+.screenshots {
+    padding: 90px 0 90px;
+    text-align: center;
+    background-color: #235178;
+    color: white;
+}
+
+.screenshots h1 {
+    font-size: 2em;
+}
+
+.screenshots img {
+    padding: 20px 0 20px;
+}
+
+/* 
+ * Reviews 
+ */
+
+.reviews {
+    padding: 90px 0 90px;
+    text-align: center;
+    background-color: white;
+    color: #337ab7;
+}
+
+.reviews h1 {
+    font-size: 2em;
+    padding-bottom: 25px;
+}
+
+.reviews p {
+    padding: 0 0 35px;
+}
+
+.reviews .line2 {
+    padding-top: 35px;
+}
 
