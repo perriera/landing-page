@@ -239,3 +239,29 @@ p, h1 {
     padding-top: 35px;
 }
 
+/* 
+ * Buy 
+ */
+
+.buy {
+    padding: 90px 0 90px;
+    text-align: center;
+    background-color: #1c3f5c;
+    color: white;
+}
+
+.buy h1 {
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+.buy button {
+    background: transparent;
+    border: 0;
+    padding-top: 25px;
+}
+
+.buy img {
+    padding: 20px 0 20px;
+}
+
