@@ -265,3 +265,56 @@ p, h1 {
     padding: 20px 0 20px;
 }
 
+/* 
+ * Contact 
+ */
+
+.contact {
+    padding: 100px 0 100px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.contact h1 {
+    font-size: 2em;
+}
+
+.contact .fa {
+    padding: 20px 10px 40px;
+    color: #1c3f5c;
+}
+
+.contact li {
+   padding-top: 10px;
+}
+
+/* 
+ * Footer 
+ */
+
+.footer {
+    background-color: #242424;
+    color: white;
+    padding: 30px 0 30px;
+}
+
+.footer h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+}
+
+.footer p {
+    font-size: 0.9em;
+    color: #f2f2f2;
+}
+
+.footer a {
+    color: #f2f2f2;
+}
+
+.footer .fa {
+    padding-right: 5px;
+}
+
+
